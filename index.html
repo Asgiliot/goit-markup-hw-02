@@ -5,30 +5,33 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Рішення для бізнесу</title>
+  <link 
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Oleo+Script&family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap" 
+    rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-  <header>
-    <nav>
-      <a href=""><span>Web</span>Studio</a>
-      <ul>
-        <li><a href="./studio.html">Студія</a></li>
-        <li><a href="">Портфоліо</a></li>
-        <li><a href="">Контакти</a></li>
+  <header class="page-header">
+    <nav class="site-nav">
+      <a class="logo" href="./index.html"><span class="blue-part">Web</span>Studio</a>
+      <ul class="nav-list">
+        <li><a class="link" href="./studio.html">Студія</a></li>
+        <li><a class="link" href="">Портфоліо</a></li>
+        <li><a class="link" href="">Контакти</a></li>
       </ul>
     </nav>
-      <div>
-        <ul>
-          <li><a href="">info@devstudio.com</a></li>
-          <li><a href="">+38 096 111 11 11</a></li>
-        </ul>
-      </div>
+      <ul class="autent-list">
+          <li><a class="link" href="">info@devstudio.com</a></li>
+          <li><a class="link" href="">+38 096 111 11 11</a></li>
+      </ul>
+    </nav>
   </header>
   <main>
-    <section>
+    <section class="hero">
       <h1>Ефективні рішення для вашого бізнесу</h1>
       <button type="button">Замовити послугу</button>
     </section>
-    <section>
+    <section class="section">
       <h2>Основні принципи</h2>
       <ul>
         <li>
@@ -49,7 +52,7 @@
         </li>
       </ul>
     </section>
-    <section> 
+    <section class="section"> 
       <h2>Чим ми займаємося</h2>
       <ul>
         <li><a href=""><img src="./images/section03_01.jpg" alt="Програмне забезпечення" width="370"></a></li>
@@ -57,7 +60,7 @@
         <li><a href=""><img src="./images/section03_03.jpg" alt="Дизайн інтенрфейса" width="370"></a></li>
       </ul>
     </section>
-    <section>
+    <section class="section">
       <h2>Наша команда</h2>
       <ul>
         <li>
@@ -84,12 +87,17 @@
     </section>
   </main>
   <footer>
-    <a href=""><span>Web</span>Studio</a>
+    <a href="./index.html"><span>Web</span>Studio</a>
     <address>
-      <p>м. Київ, пр-т Лесі Українки, 26</p>
-      <p>info@devstudio.com</p>
-      <p>+38 096 111 11 11</p>
+      <ul>
+        <li><p>м. Київ, пр-т Лесі Українки, 26</p></li>
+        <li><p>info@devstudio.com</p></li>
+        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+      </ul>
     </address>
   </footer>
 </body>
 </html>
+
+
+

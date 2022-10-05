@@ -1,0 +1,51 @@
+/* цвет лого и цвет заголовка героя #000000  #2196F3  #FFFFFF */
+
+/* цвет акцента #2196F3 */
+
+/* основной цвет текста #757575 */
+
+ /* второй цвет текста  #212121 */
+
+ /* цвета фона #F5F5F5  цвет фона героя #2F303A  цвет фона и фильтра #F5F4FA  */
+
+/* текст адрес rgba(255, 255, 255, 0.6) */
+
+*{
+  list-style: none;
+  text-decoration: none;
+}
+body{
+  color: #757575;
+  background-color: #F5F5F5;
+  font-family:Roboto, sans-serif;
+ /* Хедер лого*/
+}
+header .logo{
+  color: #000000;
+
+}
+.logo .blue-part{
+  color: #2196F3;
+  font-family:Raleway;
+}
+
+.page-header{
+  background-color:#FFFFFF ;
+}
+/* Хедер навигация */
+
+.nav-list .link{
+  color: #212121;
+}
+.nav-list .link:hover,
+.nav-list .link:focus{
+  color:#2196F3;
+}
+.autent-list .link{
+  color: #757575
+}
+.autent-list .link:hover,
+.autent-list .link:focus{
+  color: #2196F3;
+}
+
